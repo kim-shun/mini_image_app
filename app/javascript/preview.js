@@ -13,10 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
     };
 
     document.getElementById('message_image').addEventListener('change', function(e){
-      const imageContent = document.querySelector('img'); //画像が表示されている場合のみ、すでに存在している画像を削除する、画像を編集可能にする
-      if (imageContent){
-        imageContent.remove();
-      }
+      
       const file = e.target.files[0];
       const blob = window.URL.createObjectURL(file);
 
