@@ -5,7 +5,7 @@
   <div id="image-list"></div>
 <% end %>
 
-<% @messages.images.each do |image| %>
+<% @message.images.each do |image| %>
   <%= image_tag image, class: 'images' %>
 <% end %>
 <%#= image_tag @message.image, id: 'image' if @message.image.present? %>
