@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
       //生成したHTMLの要素をブラウザに表示、指定した親要素の中に要素を追加するメソッド
       imageElement.appendChild(blobImage);
+      imageElement.appendChild(inputHTML)
       ImageList.appendChild(imageElement);
     };
 
